@@ -1,0 +1,19 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Home Care Support Service</title>
+  <desc id="desc">Illustration of a home with care and support icons.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3f9"/>
+      <stop offset="1" stop-color="#ebfaf1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="28" fill="url(#bg3)"/>
+  <rect x="120" y="180" width="560" height="220" rx="18" fill="#ffffff" stroke="#06712f" stroke-opacity="0.22" stroke-width="4"/>
+  <polygon points="100,220 400,70 700,220" fill="#e8347c" opacity="0.85"/>
+  <rect x="355" y="260" width="90" height="140" rx="10" fill="#eef9f1" stroke="#06712f" stroke-opacity="0.25"/>
+  <rect x="200" y="245" width="105" height="80" rx="10" fill="#fff6fb" stroke="#e8347c" stroke-opacity="0.3"/>
+  <rect x="495" y="245" width="105" height="80" rx="10" fill="#fff6fb" stroke="#e8347c" stroke-opacity="0.3"/>
+  <circle cx="585" cy="335" r="48" fill="#06712f"/>
+  <path d="M585 310 C600 286, 640 302, 640 335 C640 367, 610 392, 585 408 C560 392, 530 367, 530 335 C530 302, 570 286, 585 310 Z" fill="#fff"/>
+  <text x="90" y="470" font-family="Trebuchet MS, sans-serif" font-size="36" font-weight="700" fill="#045723">Home Care Support</text>
+</svg>

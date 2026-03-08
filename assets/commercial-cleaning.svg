@@ -1,0 +1,33 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Commercial Cleaning Service</title>
+  <desc id="desc">Illustration of a clean office building with hygiene symbols.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecfbf2"/>
+      <stop offset="1" stop-color="#fff4f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="28" fill="url(#bg2)"/>
+  <rect x="85" y="110" width="250" height="280" rx="14" fill="#ffffff" stroke="#06712f" stroke-opacity="0.25"/>
+  <rect x="350" y="70" width="365" height="320" rx="14" fill="#ffffff" stroke="#06712f" stroke-opacity="0.25"/>
+  <g fill="#eef9f1">
+    <rect x="115" y="145" width="55" height="55" rx="8"/>
+    <rect x="185" y="145" width="55" height="55" rx="8"/>
+    <rect x="255" y="145" width="55" height="55" rx="8"/>
+    <rect x="115" y="220" width="55" height="55" rx="8"/>
+    <rect x="185" y="220" width="55" height="55" rx="8"/>
+    <rect x="255" y="220" width="55" height="55" rx="8"/>
+  </g>
+  <g fill="#fff2f8">
+    <rect x="385" y="115" width="75" height="60" rx="8"/>
+    <rect x="480" y="115" width="75" height="60" rx="8"/>
+    <rect x="575" y="115" width="75" height="60" rx="8"/>
+    <rect x="385" y="195" width="75" height="60" rx="8"/>
+    <rect x="480" y="195" width="75" height="60" rx="8"/>
+    <rect x="575" y="195" width="75" height="60" rx="8"/>
+  </g>
+  <rect x="320" y="390" width="220" height="20" rx="10" fill="#045723" opacity="0.2"/>
+  <circle cx="600" cy="315" r="18" fill="#e8347c"/>
+  <path d="M600 295 L606 313 L625 313 L610 324 L616 343 L600 332 L584 343 L590 324 L575 313 L594 313 Z" fill="#fff"/>
+  <text x="90" y="470" font-family="Trebuchet MS, sans-serif" font-size="36" font-weight="700" fill="#045723">Commercial Cleaning</text>
+</svg>
