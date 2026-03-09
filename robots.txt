@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://helping-hands-kent-ltd-production.up.railway.app/sitemap.xml
+Sitemap: https://www.helpinghandskentltd.co.uk/sitemap.xml
 
