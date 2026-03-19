@@ -11,19 +11,29 @@
 		<priority>0.9</priority>
 	</url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/ashford.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/aylesham.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/bekesbourne.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/blean.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/broadstairs.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/bridge.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/canterbury.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/chartham.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/chatham.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/chestfield.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/dartford.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/deal.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/dover.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/edenbridge.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/faversham.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/folkestone.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/fordwich.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/gillingham.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/gravesend.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/harbledown.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/herne-bay.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/hersden.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/hythe.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/littlebourne.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/maidstone.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/margate.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/northfleet.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -31,13 +41,18 @@
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/ramsgate.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/rochester.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/royal-tunbridge-wells.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/rough-common.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/sevenoaks.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/sittingbourne.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/snodland.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/strood.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/sturry.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/swanley.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/tenterden.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/tonbridge.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/tyler-hill.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/west-malling.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/westbere.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 	<url><loc>https://www.helpinghandskentltd.co.uk/locations/whitstable.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+	<url><loc>https://www.helpinghandskentltd.co.uk/locations/wingham.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
