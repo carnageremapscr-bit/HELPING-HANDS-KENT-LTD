@@ -34,6 +34,9 @@
       ]
     }
   </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -45,48 +48,49 @@
       <img src="image-1772982025038.png" alt="Helping Hands Kent Ltd logo">
       <span>Helping Hands Kent Ltd</span>
     </a>
-    <nav class="site-nav" aria-label="Main navigation">
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
       <a href="#services">Services</a>
-      <a href="#highlights">Highlights</a>
-      <a href="#standards">Standards</a>
-      <a href="#coverage">Coverage</a>
-      <a href="#sectors">Sectors</a>
+      <a href="about.html">About</a>
       <a href="locations/index.html">Locations</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
     </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
   <main id="top">
     <section class="hero reveal">
       <div class="hero-copy">
-        <p class="eyebrow">Domestic, Commercial and Home Care Across Kent</p>
-        <h1>Professional Cleaning Services in Kent, Including Canterbury and Nearby Villages</h1>
-        <p>
-          Helping Hands Kent Ltd supports households, landlords, offices, retail spaces,
-          and vulnerable clients with dependable domestic cleaning, commercial cleaning,
-          end of tenancy cleaning, non-medical home care support, clearouts, and licensed waste removal
-          across Kent, including Canterbury, Whitstable, Herne Bay, Faversham, and surrounding villages.
-        </p>
+        <img class="hero-logo" src="image-1772982025038.png" alt="Helping Hands Kent Ltd">
+        <p class="eyebrow">Domestic, Commercial &amp; Home Care Across Kent</p>
+        <h1>Professional Cleaning &amp; Home Support in Kent</h1>
+        <p>Reliable cleaning, home care, and property support for households, landlords, and businesses across Kent — fully insured, DBS checked, and available 7 days.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact">Get a Free Quote</a>
+          <a class="btn btn-primary" href="contact.html">Get a Free Quote</a>
           <a class="btn btn-secondary" href="#services">Explore Services</a>
         </div>
       </div>
-      <div class="hero-card">
-        <h2>Setting Standards Above The Rest</h2>
-        <p>
-          We build custom plans around your needs, whether that is a family home,
-          a busy workplace, or extra support for day-to-day home living.
-        </p>
-        <ul>
-          <li>Domestic, commercial, deep clean, and specialist services</li>
-          <li>Home care support including light housekeeping and daily help</li>
-          <li>Fully insured, vetted team with flexible schedules</li>
-          <li>COVID certified cleaning standards available on request</li>
-        </ul>
+      <div class="hero-photo-card">
+        <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?w=700&q=80" alt="Professional cleaner working in a bright clean home" loading="lazy">
+        <div class="hero-photo-overlay">
+          <h2>Setting Standards Above The Rest</h2>
+          <p>Trusted by homes, landlords &amp; businesses across Kent</p>
+        </div>
       </div>
     </section>
+
+    <div class="trust-bar" role="list" aria-label="Quality assurances">
+      <span class="trust-item" role="listitem">Fully Insured</span>
+      <span class="trust-item" role="listitem">Licensed Waste Carrier</span>
+      <span class="trust-item" role="listitem">COVID Certified</span>
+      <span class="trust-item" role="listitem">DBS Checked Staff</span>
+      <span class="trust-item" role="listitem">7 Days Available</span>
+      <span class="trust-item" role="listitem">Kent-Wide Coverage</span>
+      <span class="trust-item" role="listitem">Free Quotes</span>
+    </div>
 
     <section id="services" class="section reveal">
       <h2>Our Services</h2>
@@ -149,62 +153,46 @@
     </section>
 
     <section id="highlights" class="section reveal">
-      <h2>Service Highlights</h2>
-      <p class="section-intro">
-        Our teams deliver specialist standards across homes, businesses, and care-focused settings.
-      </p>
+      <h2>What We Do Best</h2>
+      <p class="section-intro">Specialist standards across homes, businesses, and care settings.</p>
       <div class="visual-grid">
         <article class="visual-card">
-          <img src="assets/domestic-cleaning.svg" alt="Domestic cleaning visual">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=80" alt="Spotless clean kitchen after a professional domestic clean" loading="lazy">
           <div class="visual-copy">
             <h3>Domestic Excellence</h3>
-            <p>Routine and deep cleaning plans that keep kitchens, bathrooms, and living spaces fresh and hygienic.</p>
+            <p>Routine and deep cleaning keeping kitchens, bathrooms, and living spaces fresh.</p>
           </div>
         </article>
         <article class="visual-card">
-          <img src="assets/commercial-cleaning.svg" alt="Commercial cleaning visual">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80" alt="Clean bright modern office space" loading="lazy">
           <div class="visual-copy">
             <h3>Commercial Precision</h3>
-            <p>Structured schedules for offices and shared environments where cleanliness impacts teams and customers.</p>
+            <p>Structured schedules for offices and shared spaces where cleanliness matters.</p>
           </div>
         </article>
         <article class="visual-card">
-          <img src="assets/home-care.svg" alt="Home care support visual">
+          <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=700&q=80" alt="Carer supporting elderly client at home" loading="lazy">
           <div class="visual-copy">
             <h3>Compassionate Home Care</h3>
-            <p>Practical day-to-day support and light housekeeping that protects comfort, safety, and dignity.</p>
+            <p>Practical daily support that protects comfort, safety, and dignity.</p>
           </div>
         </article>
       </div>
     </section>
 
     <section id="standards" class="section section-alt reveal">
-      <h2>Our Standards in Action</h2>
-      <p class="section-intro">
-        Every visit follows a clear process designed to maintain consistent quality.
-      </p>
-      <div class="standards-layout">
-        <div class="check-panel">
-          <h3>Quality Checklist</h3>
-          <ul>
-            <li>Room-by-room task tracking and completion checks</li>
+      <div class="photo-split">
+        <img class="photo-split-img" src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=700&q=80" alt="Professional cleaner wiping down a kitchen surface" loading="lazy">
+        <div class="photo-split-copy">
+          <h2>Our Standards in Action</h2>
+          <p>Every visit follows a clear process built around consistent, high-quality results.</p>
+          <ul style="margin: 0.4rem 0 0; padding-left: 1.2rem; color: #3a4a3f;">
+            <li>Room-by-room task tracking</li>
             <li>High-touch points sanitised with care-safe products</li>
-            <li>Equipment and materials matched to surface type</li>
+            <li>Equipment matched to surface type</li>
             <li>Supervisor follow-up for recurring contracts</li>
             <li>Client feedback loop to continuously improve</li>
           </ul>
-        </div>
-        <div class="before-after" aria-label="Before and after style comparison visuals">
-          <article class="state-card state-before">
-            <p class="state-tag">Before</p>
-            <h4>Inconsistent Standards</h4>
-            <p>Missed details, rushed routines, and uneven cleaning quality.</p>
-          </article>
-          <article class="state-card state-after">
-            <p class="state-tag">After</p>
-            <h4>Helping Hands Standard</h4>
-            <p>Reliable systems, visible results, and cleaner, calmer spaces.</p>
-          </article>
         </div>
       </div>
     </section>
@@ -257,80 +245,65 @@
     </section>
 
     <section id="sectors" class="section reveal">
-      <h2>Industries and Property Types We Support</h2>
-      <p class="section-intro">
-        We adapt workflows to each environment so standards remain high in every setting.
-      </p>
+      <h2>Who We Work With</h2>
+      <p class="section-intro">We adapt to every environment, keeping standards high in every setting.</p>
       <div class="sectors-grid">
         <article class="sector-card">
-          <img src="image-1772982025038.png" alt="Helping Hands branding icon">
-          <h3>Homes and Apartments</h3>
-          <p>Routine domestic upkeep, deep cleans, and practical household support.</p>
+          <img class="sector-card-img" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=80" alt="Clean modern home interior" loading="lazy">
+          <div class="sector-card-body">
+            <h3>Homes &amp; Apartments</h3>
+            <p>Routine upkeep, deep cleans, and household support.</p>
+          </div>
         </article>
         <article class="sector-card">
-          <img src="image-1772982025038.png" alt="Helping Hands branding icon">
-          <h3>Offices and Workspaces</h3>
-          <p>Flexible morning, daytime, and evening cleaning with minimal disruption.</p>
+          <img class="sector-card-img" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Modern clean open-plan office" loading="lazy">
+          <div class="sector-card-body">
+            <h3>Offices &amp; Workspaces</h3>
+            <p>Flexible morning or evening cleaning with minimal disruption.</p>
+          </div>
         </article>
         <article class="sector-card">
-          <img src="image-1772982025038.png" alt="Helping Hands branding icon">
-          <h3>Retail and Public Spaces</h3>
-          <p>Presentation-focused cleaning to keep customer-facing areas welcoming.</p>
+          <img class="sector-card-img" src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=80" alt="Bright welcoming retail shop interior" loading="lazy">
+          <div class="sector-card-body">
+            <h3>Retail &amp; Public Spaces</h3>
+            <p>Presentation-focused cleaning for customer-facing areas.</p>
+          </div>
         </article>
         <article class="sector-card">
-          <img src="image-1772982025038.png" alt="Helping Hands branding icon">
-          <h3>Managed Properties</h3>
-          <p>End-of-tenancy and turnaround services aligned to landlord expectations.</p>
+          <img class="sector-card-img" src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=600&q=80" alt="Empty property ready for new tenants" loading="lazy">
+          <div class="sector-card-body">
+            <h3>Managed Properties</h3>
+            <p>End-of-tenancy and turnaround services for landlords.</p>
+          </div>
         </article>
       </div>
     </section>
 
     <section id="about" class="section section-alt reveal">
-      <div class="two-col">
-        <div>
+      <div class="photo-split">
+        <div class="photo-split-copy">
           <h2>Why Clients Choose Us</h2>
-          <p>
-            Our team is known for consistency, trust, and communication.
-            We do not rush through a checklist, we deliver measurable improvements in cleanliness,
-            hygiene, and comfort.
-          </p>
-          <div class="steps">
+          <p>Consistency, trust, and clear communication — every visit, every time.</p>
+          <div class="steps" style="margin-top: 0.8rem;">
             <div class="step-item"><strong>1.</strong> Free consultation and quote</div>
-            <div class="step-item"><strong>2.</strong> Tailored domestic, commercial, or home care plan</div>
+            <div class="step-item"><strong>2.</strong> Tailored cleaning or home care plan</div>
             <div class="step-item"><strong>3.</strong> Reliable visits from a vetted team</div>
-            <div class="step-item"><strong>4.</strong> Ongoing quality checks and adjustments</div>
+            <div class="step-item"><strong>4.</strong> Ongoing quality checks and feedback</div>
+          </div>
+          <div style="margin-top: 1.2rem;">
+            <a class="btn btn-primary" href="about.html">Our Full Story</a>
           </div>
         </div>
-        <div class="stats">
-          <div>
-            <strong>100%</strong>
-            <span>Focus on quality and consistency</span>
-          </div>
-          <div>
-            <strong>7 Days</strong>
-            <span>Flexible availability</span>
-          </div>
-          <div>
-            <strong>Kent-Wide</strong>
-            <span>Local service coverage</span>
-          </div>
-          <div>
-            <strong>Fully Insured</strong>
-            <span>Peace of mind on every visit</span>
-          </div>
-        </div>
+        <img class="photo-split-img" src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80" alt="Friendly professional cleaning team ready to help" loading="lazy">
       </div>
     </section>
 
     <section id="contact" class="section cta reveal">
-      <h2>Need a Cleaner in Kent or Canterbury?</h2>
-      <p>
-        Tell us what you need, domestic or commercial, and we will build a service plan
-        that improves standards from week one for your home, office, rental property, or support-based household.
-      </p>
-      <a class="btn btn-primary" href="mailto:helpinghandrowena@gmail.com">Email: helpinghandrowena@gmail.com</a>
-      <a class="btn btn-secondary" href="tel:07963316713">Call: 07963316713</a>
-      <p class="small">COVID Certified | Fully Insured | Fully Licensed Waste Clearance</p>
+      <h2>Get a Free Quote Today</h2>
+      <p>Tell us what you need and we will build a plan around your home, business, or property.</p>
+      <a class="btn btn-primary" href="contact.html">Contact Us</a>
+      <a class="btn btn-secondary" href="tel:07963316713">Call: 07963 316 713</a>
+      <p class="small">COVID Certified &bull; Fully Insured &bull; Licensed Waste Carrier</p>
     </section>
 
     <section class="section reveal">
@@ -357,7 +330,38 @@
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> Helping Hands Kent Ltd. All rights reserved.</p>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="image-1772982025038.png" alt="Helping Hands Kent Ltd logo">
+        <p>Professional cleaning, home care, and property support across Kent.</p>
+        <p class="footer-tagline">Setting Standards Above The Rest</p>
+      </div>
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#services">Domestic Cleaning</a></li>
+          <li><a href="#services">Commercial Cleaning</a></li>
+          <li><a href="#services">End of Tenancy</a></li>
+          <li><a href="#services">Home Care Support</a></li>
+          <li><a href="#services">Deep Cleaning</a></li>
+          <li><a href="#services">Property Clearouts</a></li>
+          <li><a href="#services">Waste Removal</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="mailto:helpinghandrowena@gmail.com">helpinghandrowena@gmail.com</a></li>
+          <li><a href="tel:07963316713">07963 316 713</a></li>
+          <li><a href="locations/index.html">All Locations</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Helping Hands Kent Ltd. All rights reserved.</p>
+      <p>Fully Insured &middot; Licensed Waste Carrier &middot; COVID Certified</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>

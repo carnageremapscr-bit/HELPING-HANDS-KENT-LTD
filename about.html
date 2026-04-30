@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about Helping Hands Kent Ltd — a trusted, fully insured cleaning and home care company serving families, landlords, and businesses across Kent.">
+  <meta name="keywords" content="about Helping Hands Kent, cleaning company Kent, home care Kent, trusted cleaners Canterbury">
+  <title>About Us | Helping Hands Kent Ltd</title>
+  <link rel="canonical" href="https://www.helpinghandskentltd.co.uk/about.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .about-hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.4rem;
+      align-items: center;
+    }
+
+    .about-hero-logo {
+      width: 100%;
+      max-width: 340px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      filter: drop-shadow(0 12px 40px rgba(232, 52, 124, 0.22));
+    }
+
+    .about-hero-copy h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      background: linear-gradient(135deg, var(--leaf-deep) 20%, var(--rose-deep) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1rem;
+    }
+
+    .about-hero-copy p {
+      margin-bottom: 0.9rem;
+      font-size: 1.05rem;
+    }
+
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.1rem;
+      margin-top: 1.4rem;
+    }
+
+    .value-card {
+      padding: 1.4rem 1.2rem;
+      text-align: center;
+    }
+
+    .value-icon {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 0.6rem;
+    }
+
+    .value-card h3 {
+      color: var(--leaf-deep);
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .value-card p {
+      font-size: 0.9rem;
+      color: #4a5a4f;
+    }
+
+    .credentials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1.4rem;
+    }
+
+    .credential-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 1rem;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(6, 113, 47, 0.14);
+      box-shadow: 0 4px 14px rgba(6, 113, 47, 0.07);
+    }
+
+    .credential-badge {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--rose), #ff559d);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+
+    .credential-item h4 {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--leaf-deep);
+      margin: 0 0 0.2rem;
+    }
+
+    .credential-item p {
+      font-size: 0.82rem;
+      color: #5a6b60;
+    }
+
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1.4rem;
+      counter-reset: step;
+    }
+
+    .process-step {
+      padding: 1.3rem;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(6, 113, 47, 0.12);
+      box-shadow: 0 6px 18px rgba(6, 113, 47, 0.08);
+      position: relative;
+      padding-top: 2.8rem;
+      counter-increment: step;
+    }
+
+    .process-step::before {
+      content: counter(step);
+      position: absolute;
+      top: 1rem;
+      left: 1.3rem;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--rose), #ff559d);
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 30px;
+      text-align: center;
+    }
+
+    .process-step h3 {
+      color: var(--leaf-deep);
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .process-step p {
+      font-size: 0.9rem;
+      color: #4a5a4f;
+    }
+
+    @media (max-width: 760px) {
+      .about-hero {
+        grid-template-columns: 1fr;
+      }
+
+      .about-hero-logo {
+        max-width: 220px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Helping Hands Kent Ltd home">
+      <img src="image-1772982025038.png" alt="Helping Hands Kent Ltd logo">
+      <span>Helping Hands Kent Ltd</span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="locations/index.html">Locations</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <section class="section reveal">
+      <div class="about-hero">
+        <div class="about-hero-copy">
+          <p class="eyebrow">Our Story</p>
+          <h1>Professional, Caring, and Trusted Across Kent</h1>
+          <p>
+            Helping Hands Kent Ltd was founded with one simple goal — to provide genuinely reliable cleaning,
+            home care, and property support to the people of Kent. We work with families, landlords, businesses,
+            and vulnerable clients who deserve a team they can truly count on.
+          </p>
+          <p>
+            Based in Kent and covering the whole county, from Canterbury and Whitstable to Maidstone,
+            Ashford, and the coastal towns, we have built our reputation on showing up, doing the job
+            properly, and treating every client's home or business with the respect it deserves.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contact.html">Get a Free Quote</a>
+            <a class="btn btn-secondary" href="index.html#services">Our Services</a>
+          </div>
+        </div>
+        <div>
+          <img class="about-hero-logo" src="image-1772982025038.png" alt="Helping Hands Kent Ltd">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt reveal">
+      <h2>What We Stand For</h2>
+      <p class="section-intro">
+        Every member of our team shares the same core values that guide every visit, every clean, and every care call.
+      </p>
+      <div class="values-grid">
+        <article class="card value-card">
+          <span class="value-icon" aria-hidden="true">🤝</span>
+          <h3>Trust</h3>
+          <p>We enter your home or business with professionalism and total respect for your space and belongings.</p>
+        </article>
+        <article class="card value-card">
+          <span class="value-icon" aria-hidden="true">💚</span>
+          <h3>Compassion</h3>
+          <p>We genuinely care about the people we support, particularly vulnerable and elderly clients who rely on us.</p>
+        </article>
+        <article class="card value-card">
+          <span class="value-icon" aria-hidden="true">⭐</span>
+          <h3>Quality</h3>
+          <p>We take pride in every job and hold ourselves to consistently high standards, visit after visit.</p>
+        </article>
+        <article class="card value-card">
+          <span class="value-icon" aria-hidden="true">📅</span>
+          <h3>Reliability</h3>
+          <p>We show up when we say we will and communicate clearly if anything changes. No surprises, no let-downs.</p>
+        </article>
+        <article class="card value-card">
+          <span class="value-icon" aria-hidden="true">🌱</span>
+          <h3>Community</h3>
+          <p>We are a local Kent business, proud to serve our neighbours and give back to the communities we work in.</p>
+        </article>
+        <article class="card value-card">
+          <span class="value-icon" aria-hidden="true">🔒</span>
+          <h3>Safety</h3>
+          <p>Every team member is DBS checked, fully insured, and trained to operate safely in domestic and care environments.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <h2>Our Credentials</h2>
+      <p class="section-intro">We are fully certified and accredited to operate safely and professionally in every setting.</p>
+      <div class="credentials-grid">
+        <div class="credential-item">
+          <div class="credential-badge" aria-hidden="true">✓</div>
+          <div>
+            <h4>Fully Insured</h4>
+            <p>Comprehensive public liability insurance on every job, giving you complete peace of mind.</p>
+          </div>
+        </div>
+        <div class="credential-item">
+          <div class="credential-badge" aria-hidden="true">🛡</div>
+          <div>
+            <h4>DBS Checked Staff</h4>
+            <p>All team members hold a current DBS certificate, essential for working in homes and with vulnerable clients.</p>
+          </div>
+        </div>
+        <div class="credential-item">
+          <div class="credential-badge" aria-hidden="true">🚗</div>
+          <div>
+            <h4>Full Driving Licences</h4>
+            <p>Our team travel to you — all staff hold full UK driving licences to serve clients across Kent.</p>
+          </div>
+        </div>
+        <div class="credential-item">
+          <div class="credential-badge" aria-hidden="true">♻</div>
+          <div>
+            <h4>Licensed Waste Carrier</h4>
+            <p>We hold a full waste carrier licence, allowing us to legally remove and dispose of bulky waste and clearout materials.</p>
+          </div>
+        </div>
+        <div class="credential-item">
+          <div class="credential-badge" aria-hidden="true">🧼</div>
+          <div>
+            <h4>COVID Certified</h4>
+            <p>Our team follow COVID-safe cleaning protocols and use certified products where required.</p>
+          </div>
+        </div>
+        <div class="credential-item">
+          <div class="credential-badge" aria-hidden="true">📋</div>
+          <div>
+            <h4>References Available</h4>
+            <p>Happy to provide references from existing clients on request before you commit to any service.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt reveal">
+      <h2>How We Work</h2>
+      <p class="section-intro">From first contact to every ongoing visit, our process is straightforward and built around you.</p>
+      <div class="process-steps">
+        <div class="process-step">
+          <h3>Free Consultation</h3>
+          <p>Tell us what you need — domestic, commercial, care support, or clearout. We listen first and recommend from there.</p>
+        </div>
+        <div class="process-step">
+          <h3>Tailored Plan</h3>
+          <p>We build a custom schedule around your property, priorities, access times, and budget. Nothing off the shelf.</p>
+        </div>
+        <div class="process-step">
+          <h3>Reliable Visits</h3>
+          <p>Our vetted, DBS checked team arrives on time and works to the agreed standard — every single visit.</p>
+        </div>
+        <div class="process-step">
+          <h3>Quality Checks</h3>
+          <p>We follow up, ask for feedback, and make adjustments to keep standards consistently high as your needs evolve.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta reveal" style="text-align: center; padding: 2.5rem 2rem;">
+      <h2>Ready to Work With Us?</h2>
+      <p style="max-width: 56ch; margin: 0.6rem auto 1.6rem;">
+        Whether you need a one-off deep clean, ongoing domestic support, home care help, or a full property clearout,
+        we are here to help. Get in touch today for a free, no-obligation quote.
+      </p>
+      <a class="btn btn-primary" href="contact.html">Get a Free Quote</a>
+      <a class="btn btn-secondary" href="tel:07963316713">Call: 07963 316 713</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="image-1772982025038.png" alt="Helping Hands Kent Ltd logo">
+        <p>Professional cleaning, home care, and property support across Kent.</p>
+        <p class="footer-tagline">Setting Standards Above The Rest</p>
+      </div>
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="index.html#services">Domestic Cleaning</a></li>
+          <li><a href="index.html#services">Commercial Cleaning</a></li>
+          <li><a href="index.html#services">End of Tenancy</a></li>
+          <li><a href="index.html#services">Home Care Support</a></li>
+          <li><a href="index.html#services">Property Clearouts</a></li>
+          <li><a href="index.html#services">Waste Removal</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="mailto:helpinghandrowena@gmail.com">helpinghandrowena@gmail.com</a></li>
+          <li><a href="tel:07963316713">07963 316 713</a></li>
+          <li><a href="locations/index.html">All Locations</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Helping Hands Kent Ltd. All rights reserved.</p>
+      <p>Fully Insured &middot; Licensed Waste Carrier &middot; COVID Certified</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,10 +1,16 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Helping Hands Kent Ltd provides domestic cleaning, commercial cleaning, home care support, clearouts, and removals in Sittingbourne, Kent.">
   <title>Cleaning Services in Sittingbourne | Helping Hands Kent Ltd</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
   <style>
     .location-wrap { width: min(1120px, 92%); margin: 1.2rem auto 2rem; }
@@ -26,12 +32,17 @@
       <img src="../image-1772982025038.png" alt="Helping Hands Kent Ltd logo">
       <span>Helping Hands Kent Ltd</span>
     </a>
-    <nav class="site-nav" aria-label="Main navigation">
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="../index.html">Home</a>
       <a href="../index.html#services">Services</a>
-      <a href="../index.html#coverage">Coverage</a>
-      <a href="index.html">Kent Locations</a>
-      <a href="../index.html#contact">Contact</a>
+      <a href="../about.html">About</a>
+      <a href="index.html">Locations</a>
+      <a href="../careers.html">Careers</a>
+      <a href="../contact.html">Contact</a>
     </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
   <p class="crumb"><a href="../index.html">Home</a> / <a href="index.html">Kent Locations</a> / Sittingbourne</p>
@@ -78,7 +89,37 @@
   </main>
 
   <footer class="site-footer">
-    <p>(c) <span id="year"></span> Helping Hands Kent Ltd. All rights reserved.</p>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="../image-1772982025038.png" alt="Helping Hands Kent Ltd logo">
+        <p>Professional cleaning, home care, and property support across Kent.</p>
+        <p class="footer-tagline">Setting Standards Above The Rest</p>
+      </div>
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="../index.html#services">Domestic Cleaning</a></li>
+          <li><a href="../index.html#services">Commercial Cleaning</a></li>
+          <li><a href="../index.html#services">End of Tenancy</a></li>
+          <li><a href="../index.html#services">Home Care Support</a></li>
+          <li><a href="../index.html#services">Property Clearouts</a></li>
+          <li><a href="../index.html#services">Waste Removal</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="mailto:helpinghandrowena@gmail.com">helpinghandrowena@gmail.com</a></li>
+          <li><a href="tel:07963316713">07963 316 713</a></li>
+          <li><a href="index.html">All Locations</a></li>
+          <li><a href="../careers.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Helping Hands Kent Ltd. All rights reserved.</p>
+      <p>Fully Insured &middot; Licensed Waste Carrier &middot; COVID Certified</p>
+    </div>
   </footer>
 
   <script src="../script.js"></script>
