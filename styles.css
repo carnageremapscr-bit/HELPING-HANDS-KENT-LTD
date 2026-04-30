@@ -15,6 +15,11 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 html,
 body {
   margin: 0;
@@ -692,6 +697,7 @@ main {
 .photo-split-img {
   width: 100%;
   height: 100%;
+  max-height: 460px;
   object-fit: cover;
   display: block;
 }
@@ -743,6 +749,7 @@ main {
 .visual-card img {
   width: 100%;
   aspect-ratio: 16 / 9;
+  max-height: 280px;
   object-fit: cover;
   display: block;
   transition: transform 0.4s ease;
@@ -775,6 +782,7 @@ main {
 .sector-card-img {
   width: 100%;
   aspect-ratio: 4/3;
+  max-height: 220px;
   object-fit: cover;
   display: block;
 }
@@ -806,6 +814,7 @@ main {
 .hero-photo-card img {
   width: 100%;
   height: 100%;
+  max-height: 520px;
   object-fit: cover;
   display: block;
 }
